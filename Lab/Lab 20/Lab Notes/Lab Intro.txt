@@ -1,0 +1,15 @@
+Nearly every day there are reports of information security breaches and resulting monetary losses in the news. 
+Businesses and governments have increased their security budgets and undertaken measures to minimize the loss from security breaches. 
+ cyber laws act as a broad deterrent, internal controls are needed to secure networks from malicious activity. 
+ Internal controls traditionally fall into two major categories: prevention and detection.
+
+Intrusion prevention systems (IPS) block the IP traffic based on the filtering criteria that the information systems security 
+practitioner must configure. Typically, the LAN-to-WAN domain and Internet ingress/egress point is the primary location for IPS devices. 
+Second to that would be internal networks that have or require the highest level of security and protection from unauthorized access. 
+If you can prevent the IP packets from entering the network or LAN segment, then a remote attacker can't do any damage.
+
+A host-based intrusion detection system (IDS) is installed on a host machine, such as a server, and monitors traffic to and from the 
+server and other items on the system. A network-based IDS deals with traffic to and from the network and does not have access to 
+directly interface with the host. Intrusion detection systems are alert-driven, but they require the information systems security 
+practitioner to configure them properly. An IDS provides the ability to monitor a network, host or application, and report back when 
+suspicious activity is detected, but it does not block the activity.

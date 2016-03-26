@@ -1,0 +1,23 @@
+Most widely used wireless technologies
+	- 802.11 a/b/g/n
+	- Bluetooth
+	- Infrared
+	- Radio Requency Identification
+	- Cell phones
+	- Alternate wireless technologies, including worldwide interoperability for Microwave Access and similar long-range wireless technologies
+Vulnerability of Bluetooth
+	- It allows for discovery-mode settings
+	- includes pairing protection of authentication and authorization
+	- poorly implemented by some vendors
+	- Bluetooth service authorization mode can be vulnerable because some devices accept all incoming file transfers or pair automatically
+	- Bluetooth worms Cabir and Mabir use both Bluetooth and multimedia messaging service.
+	- buletooth operates as part of a network stack and may expose the host operating systems to attacks
+	- Bluetooth devices may be uniquely identified; therefore, Bluetooth may be used to find the position of or to track a device.
+
+Vulnerability of wireless technologies 
+	- send unencrypted traffic can allow monitoring from a distance
+	- can be located by triangulation 
+	- receive interference, preventing the use of a network 
+	- Most other threats are common to both wired and wireless netoworks, such as denial of service and host-and service-based attacks.
+
+SSID => used to identify a network and is represented as a 32 character sequence. the SSID helps clients locate the correct wireless local area network

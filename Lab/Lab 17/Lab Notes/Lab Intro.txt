@@ -1,0 +1,4 @@
+baseline => a record of the normal network performance.
+chanllenge => simplifying the data for better analysis, dealing with large-size packet capture files, and working with multiple
+			  tools to gain an accurate perspective on the network.
+Three-way handshake (SYN > SYN-ACK > ACK)			  

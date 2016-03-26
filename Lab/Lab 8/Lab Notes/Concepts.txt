@@ -1,0 +1,58 @@
+OSI => organizes protocols and services in levels of ordered operations. The protocol stack, or network stack, refers to layered network protocols in the OSI model
+	1. Physical => Defines electrical and physical device specifications and the relationships between physical devices.
+					Ethernet cabling functions at this layer
+	2. Data link => Provides the means to transfer data between network endpoints. 
+					most switches operate at this layered
+	3. Network => Provides the means for delivering variable-length data between networks. 
+					routers operate at this layer.
+	4. Transport => Establishes reliable services and user connection or datagram-oriented packets. 
+					TCP / UDP 
+	5. Session => Establishes, manages, and terminates connections locally and remotely 
+					remote procedure calls
+	6. Presentation => Establishes context between application layer entities.
+	
+	7. Application => Interacts with software that uses a communication protocol. this layer is colest to teh end user with direct application interaction.
+					 It serves to identify parties, determine service availability and synchoronize end-to-end communications.
+					 HTTP, FTP, Email
+TCP 
+	- Ip packets contain source and destination addresses to transmit data 
+	- IP resides on the lower levels and encapsulates upper-layer packets to send them across the network 
+	- TCP builds reliable connection-oriented transmission. 
+	- IP encapsulates TCP to connect sources with destinations using certain ports and a specific service protocol.
+TCP weakness => TCP is a insecure protocol suite and it was designed when the computer security is not a major problem 
+	- There are insufficient authentication controls for remote users.
+	- There are no enforced health checks against remote clients
+	- Unprotected services are accessible from the Internet.
+	- There are issues related to the disclosure of shared file system information
+	- The model is susceptible to DoS attacks.
+
+Encapsulation => As data moves from a software application for transmission over the network, it traverses the layer of 
+				 the protocol stack from top to bottom. As each layer receives data from the layer above it, that data 
+				 becomes the payload with a layer-specific header. at the data link layer, where Ethernet resides, the 
+				 data receives a footer, as well.
+Network topology => how devices and systems interconnect. It refers to the arrangement, or hierarchy of how networked 
+					devices connect. 
+			- Bus
+				=> Nodes connect to a shared backbone, and data is broadcasted to all devices.
+			- Rings 
+				=> Nodes are connected in a circle, and data traverses throughout the network ring to all devices.
+			- Star
+				=> Nodes are connect to a central hub, and data passes directly to individual hosts.
+			- Line 
+				=> Nodes connect to each other in a line 
+			- Tree
+				=> Serveral star networks are attached to a bus
+			- Mesh
+				=>Every device is interconnected, and data takes several paths
+network topology can help enforce security policies in an information technology infrastructure. Isolated segments for development and production servers and
+user groups compartmentailize risk because
+	- Keeping users separate helps minimize exposure
+	- Separate segments are easier to control and monitor.
+	- It isolates remote mobile user groups from internal user groups.
+	
+															Application layer protocols
+			Secure																							insecure
+			- Secure File Transfer Protocol																	- FTP																										
+			- HTTPS																							- HTTP
+			- SSH																							- Telnet
+			- SNMPv3																						- Simple Network Management Protocol Version 1/2													

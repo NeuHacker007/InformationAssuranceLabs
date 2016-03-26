@@ -1,0 +1,4 @@
+Compare the results of the two scans for this computer and explain 
+how your actions in Part 3 of this lab hardened security on this machine
+
+Reduced attack surface

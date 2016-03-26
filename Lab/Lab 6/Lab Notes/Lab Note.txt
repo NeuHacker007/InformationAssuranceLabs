@@ -1,0 +1,11 @@
+The /etc/exports file instructs Linux which folders to share with NFS and what NFS features should be enabled. The line you uncommented instructs Linux to share /var/www. The remaining options are described in the following list.
+
+     · * = wild card, any IP may connect.
+     ·  rw = read write access
+    ·  root_squash = prevent root from creating files with root privilege
+     ·  sync = synchronize local and remote directories
+    ·  no_subtree_check = will not export sub directories
+    ·  crossmnt = allows multiple client mounts and multi filesystem mounting
+	
+The /etc/fstab instructs the Linux system which files to mount on startup. The line you uncommented tells 
+www1 to mount the /var/www directory (which you “exported” on storage.securelabs.com) as /var/www locally.

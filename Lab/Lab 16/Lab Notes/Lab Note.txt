@@ -1,0 +1,32 @@
+Viruses Symptoms 
+	- Slow response opening applications or browsing the internet
+	- Applications not working as they normally would 
+	- Operating system not booting up correctly or not functioning normally
+	- Event logs reporting numerous, unusual alerts
+	- Antivirus software is not running has been disabled, or can't update its virus definitions
+	- Numerous windows pop up when trying to access the Internet or opening a browser 
+	
+Many new malware and viruses are detected every day, and anti-virus vendors usually update 
+their anti-virus signature files several times per week. Updating the antivirus software with 
+the latest virus definitions ensures the software has the latest information to identify and quarantine 
+threats. AVG automatically updates the database on a regular bases, as long as the machine is able to 
+reach the Internet. The vWorkstation does not have direct access to the Internet, so selecting this 
+option will have no effect in the lab and you will see a warning message at the top of the AVG window 
+throughout this lab. However, this is an important step in performing a virus scan outside the lab, 
+so it is included here.
+
+In addition to updating the database, it is also important to research and apply any patches to the 
+antivirus software itself. These patches often address vulnerabilities in the application as well. 
+
+Exceptions of AVG => enables you to remove specific files or folder from the scan
+
+AVG could not scan zip file but its Resident Shield feature allows AVG to scan file when they are oppened,
+saved,copied
+
+The Virus Vault is a quarantine area where all removed files, virus infected or suspicious, 
+are stored until you take action on them. All of the files in the vault are encrypted and cannot 
+do your computer any harm. The main purpose of the Virus Vault is to keep any suspicious file for 
+a certain period of time, so that you can make sure you do not need the file any more and manually 
+delete it. If you find that the Virus Vault has quarantined a valid file, a false positive, it can 
+be restored easily from this interface.
+

@@ -1,0 +1,30 @@
+
+Access control => the method used to restrict or allow access to certain items. It prevents unauthorized use.
+	phase happend
+	policy definition			- Authorization: Who is approved for access and what can the person use
+	policy enforcement		    - Identification: How is the person identified
+	policy enforcement   		- Authentication: Can the person's identity be verified.
+	policy enforcement			- accountability: how are actions traced to an individual to ensure that the person who makes data or system
+    							  changes can be identified
+Steps
+	1. authorization -> create a policy to define authorization rules
+	2. identity -> the account attempting to access a resource is determined
+	3. authentication -> one step further by requiring a proof of identity using a password, a token, or a shared secret
+	4. accountability -> tracing an action to a person or a process to know who made the changes to the system or data.
+
+	RBAC(Rules based Access control) -> An RBAC policy bases access control approvals on the jobs the user is assigned
+
+Discretionary access control(DAC) => the owner of the resource decides who may access a system and change permissions as needed
+										eg. windows share folder
+Mandatory access control (MAC) => the owner retains the permission to enter a system and this permission cannot be given to anyone
+								  else
+									eg. government always use this, classified files
+Role based access control => the system administrator assigns privilege according to what role does the person belong to
+									eg. Oracle database
+Nondiscretionary access control => monitored by the security admninistrator and not the system administrator. the data owner, often
+								   the user, does not make access decisions.
+Rule-based access control => the data owner maintains the list of rules and determines which user have access to objects.
+
+Content-dependent access control(CDAC) => administrator set up permissions and continuously manage the system. often used to protect
+										  databases containing sensitive data.
+										  eg. corporate e-mail filtering 

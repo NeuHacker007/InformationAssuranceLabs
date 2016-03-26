@@ -1,0 +1,15 @@
+Questions
+
+1. if you and another person want to encrypt messages, should you provide that person with your public
+   key, private key, or both?
+   
+2. What does Kleopatra allow you to do once it is installed?
+
+3. What key type was used to create the certificate on Kleopatra? What other types of encryption key
+   types are possible?
+   
+4. What was the fingerprint generated with your Kleopatra certificate?
+
+
+5. If someone sends you his public key and you import it into Kleopatra, will he be able to decrypt the 
+   encrypted messages you send him?

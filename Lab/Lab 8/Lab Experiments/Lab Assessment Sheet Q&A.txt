@@ -1,0 +1,24 @@
+Questions
+
+1. Why is it critical to perform a penetration test on a Web application and a Web server prior to production implementation?
+   As a web application and web server, it stores huge number of customer data such as credit card information, personal identity etc. So, 
+   A company who possesses these web server and web application has the responsibility to protect it from breach or damage. In addition,
+   the government law requires such companies to execute regular penetration test before any Web server and web application go to production.
+   
+2. What is a cross-site scripting attack? Explain in your own words.
+	Cross-site scripting attack allows the attacker to execute arbitrary scripts within the Web application. It mainly appears in the 
+	web forms and attackers can type any script like javascript to change the outlook of the web site or breach the data from web page.
+	
+3. What is a reflective cross-site scripting attack?
+	In reflective cross-site scripting attack, the attackers cannot use script to modify data on the server and it can show its input on 
+	both user and attacker screen.
+4. Which Web application attack is more likely to extract privacy data elements out of a database.
+	SQL Injection
+5. What security countermeasures could be used to monitor your produciton SQL datases against injection attacks
+	//Firstly, we can use set up some alerts to database administrators and security practioners  
+	handle the special character in SQL statements correctly.
+6. What can you do to ensure that your organization incorporates penetration testing and Web application testing as part of its
+   implementation procedures
+   
+7. Who is responsible for the CIA of production Web applications and Web servers?
+	Softare developer, system engineers and security practioners. 

@@ -1,0 +1,4 @@
+Monitor outside netwrok traffic allows information systems security practitioners to see who and what is attempting to infiltrate your IP
+netwrok.
+Monitor internal network traffic allows network analysts to see exactly which hosts may be compromised and what destination IP addresses internal
+employees are accessing.

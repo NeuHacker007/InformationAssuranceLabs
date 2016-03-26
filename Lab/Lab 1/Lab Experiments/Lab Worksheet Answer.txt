@@ -1,0 +1,30 @@
+Things need to accomplish
+			Lab Report file including screen captures of Part 1 Step 11
+			Yourname_IntenseScan
+			yourname_FisheyeBubbleChart.pdf
+			Optional Chanllenge questions file;
+			
+1. Name at least five applicatioins and tools used in the lab
+	Wireshark, OpenVAS, Netwitness Investigator, FileZilla, Tftpd64, PuTTY, Zenmap
+2. What's is promiscuous mode
+   promiscuous mode means that when we use this mode of Wireshark, we can not only capture packets from local computer but also can capture all packets from the same subnet or LAN 
+3. How does Wireshark differ from NetWitness Investigator
+	Wireshark focuses more individual packets and it shows the internal structure (protocol pattern) and contents of these packets. However, NetWitness Investigator provides professionals
+    with a powerful analysis capability and it will analyze a group of packets and generate a report which helps experts to clearly understand what is going on within the network. 
+	NetWitness Investigator also allows professionals to drill down to see what is happening within the network.   
+4. Why is it important to select the student interface in the Wireshark
+	Through the chosen of interface of wireshark, we can get specific packets from one equipment rather than get the entire pakets over the network.
+5. What is teh command line syntax for running an Intense Scan with Zenmap on a target subnet of 172.30.0.0/24
+	nmap -T4 -A -V  172.30.0.0/24
+6. Name at least five different scans that may be performed with Zenmap
+	Intense scan | Ping scan | quick scan | quick traceroute | regular scan | Slow comprehensive scan
+7. How many different tests(i.e., scripts) did your Intense Scan perform
+   ARP Ping Scan |SYN Stealth Scan | Service scan | OS detection | Traceroute 
+   Total：110 loaded
+8. Based on your interpretation of the Intense Scan, describe the purpose/results of each tests script performed during the report
+	ARP Ping Scan => To identify how many hosts are closed. 
+	SYN Stealth Scan => To identify which TCP port are open and which TCP port are closed
+	Service Scan => it will send some particular packets in order to test the response from these services
+	OS detection => it will send some particular packets to identify what operating system are used by target objects.
+9. How many total IP hosts did Zenmap find on the network
+      255 scanned and 6 is up

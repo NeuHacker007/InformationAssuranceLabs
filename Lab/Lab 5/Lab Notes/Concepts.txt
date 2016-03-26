@@ -1,0 +1,72 @@
+Security assessment => validate that established mechanisms work as intended and points out weaknesses or gaps in your security posture.
+IT security audit => the logical extension of established policies and procedures that set the protocols and parameters for a system
+				- verification => ensuring that established security controls meet policies and regulatory and mandatory laws
+				- validation => ensuring that security controls function against various types of attacks and teh attempted manipulation
+				- Testing => using manual or automated means to verify security controls and examining their effectivenes
+				- Evaluation => examining how well security controls and personnel respond to alarming events.
+Purpose of IT Audit => tests a system to ensure that the policies and procedures are correct for business needs, controls are in place to support these policies,
+					   and procedures are properly followed and maintained.
+
+Difference between IT security assessment & IT security audit 
+						- An audit will verify that you have taken adequate measures to protect sensitive data
+						- an assessment will validate weaknesses that are not addressed by policies.
+Ethical hacking (penetration testing) => helps expose and prove inherent weaknesses that must be addressed by administrators and security professionals.
+										 it seeks to expose a broad range of security issues.
+							
+Security Assessment process 
+	- Define the assessment plan
+		=> When planning an assessment, the assessor should look at the people, process, and technology of the organization and determine what the assessment will focus on.
+		- Identify scope objectives
+			=> The assessor defines the boundaries of the assessment plan and establishes specific areas to be assessed.
+			- Establish assessment benchmarks and baselines
+				=> help assessor establish a system of measurements.
+				- collect assessment data
+					=> assessor conducts interviews with managers and end users, review logs, and checks system and network.
+					- target items that can be exploited
+						=> target applications, connections, protocols, services, and users that can be exploited. the assessor identify items which pose the greatest vulnerabilities.
+						- Validate mechanisms and identify weakness
+							=> assessor checks access controls and countermeasures and runs vulnerability tests to determine security gaps and weaknesses. 
+Security audit process
+	- define the audit plan
+		=> includes surveying the site and reviewing documentation, risk analysis output, logs and the results of penetration tests.
+		- identify scope objectives
+			=> defines the boundaries of the plan and establishes specific areas to audit so that one audit doesn't interfere with another audit being conducted.
+			- establish audit benchmarks and baselines
+				=> guidlines
+						-> ISO - International Oraganization for Standarization
+						-> NIST - National institute of standards and technology
+						-> ITIL - Information technology information library 
+						-> COBIT - Control objectives for information and related Technology
+						-> COSO - Committee of Sponsoring organizations
+				- collect audi data
+					=> collect audit data and conduct interviews.
+					- review policies and procedures
+						=> Select and review policies, procedures, and planning documents.
+						- Verify accuravy of controls and compliance.
+							=> checks the identity-management system for approval processes, verifies that the authentication mechanisms work, checks for password
+							   and policy enforcement, verifies that monitoring systems are in place and working, and checks that remote access systems use strong
+							   authentication. 
+Information systems security officer => help with planning, approving, and executing assessments and audits.
+Network and systems administrators => assisst the assessors and auditors in network and system access and to provide background information when needed.
+Managers and data owners => they must be available to address questions from assessors and auditors and to participate in postmortem meetings to discuss potential
+							changes to systems and networks and the impact of the same on the staff.
+User => cooperate fully with the assessment and auditing teams and understand that some services might be slow or unavailable during the testing phase.
+auditors => define the objectives of the audit and determine which systems or business processes to review.
+penetration testers or ethinical hacker => run a series of probes and tests on a netowrk or a system to try to infiltrate it exactly like a hacker would. these testers are
+										   usually certified and must sign client agreements that they will act in an ethical manner while conducting tests.
+real-time monitoring => responding to incidents as they occur.
+		- Host intrusion prevention system (HIPS) -> can deny and disrupt a live attack on a system and helps protect services from manipulation
+			=> monitors individual hosts for suspicious ativities.
+		- Network intrusion prevention system(NIPS) -> can intercept and interrupt a live attack on the network and can help remove the malicious content of the attack.
+			=> monitors the entire network for suspicious traffic
+		- Wireless intrusion prevention system(WIPS)
+			=> specifically monitors the wireless network for suspicious.
+	eg. 
+		Authentication failures
+		application crashes
+		service disruptions
+		System intrusions
+		Network abuses
+		policy violation
+		unauthorized activities
+		inventory changes

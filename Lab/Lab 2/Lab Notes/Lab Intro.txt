@@ -1,0 +1,23 @@
+hacking process => 																				Tools used 
+					- footprinting 
+					
+					- scanning 
+					   and  										Zenmap(Initial IP host discovery | port/services scanning)
+					  vulnerability assessment					    OpenVAS(network discovery of devices | OS | applications | db | services)
+					
+					- enumeration 
+					
+					- exploitation
+					
+					- post-attack activities
+
+The difference of ethical hacker and an attacker is the written permission, complete transparency and professional accountability
+
+Zenmap is the graphical interface of nmap
+
+Deliverables
+		1) Lab Report file including screen captures of the following steps 
+		2) P1 8,13,17
+		3) Zenmap report P3 11
+		4) OpenVAS report P3 11
+		

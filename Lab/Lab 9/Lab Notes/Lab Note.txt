@@ -1,0 +1,18 @@
+anti-virus tools could not open encrypted files for scanning
+virus vault
+	=> a quarantine area where all remobed files, virus infected or suspicious are stored until you 
+	   take action on them
+	=> all the file in the vault are encrypted and cannot do your computer any harm
+	=> purpose is to keep any deleted file for a certain period of time, so that you can make sure you do not need the file
+	   any more.  If you find out that the missing file is causing problems, you can send it for analysis, try to heal it, or restore 
+	   it to the original location.
+The Windows Firewall with Advanced Security is a personal firewall that filters incoming and outgoing traffic by blocking unauthorized 
+traffic to the local computer. It can be configured to support separate profiles based on whether the computer is connected to a network 
+at the office, or connected at home, or at a public location, such as the local coffee shop. Using the Advanced Security profiles, 
+network traffic can be filtered based on Active Directory users and group, both source and destination IP addresses, port number, 
+specific programs and services.
+
+Enabled on the network and properly configured, a firewall can block outside sources from being able to insert malware and viruses. 
+By default, the Windows Firewall disables several important services like File Transfer Protocol (FTP) and 
+Internet Control Message Protocol (ICMP), which includes the Ping command. In the next steps, 
+you will manually configure the Windows Internal Firewall to enable the ICMP service on the vWorkstation machine.

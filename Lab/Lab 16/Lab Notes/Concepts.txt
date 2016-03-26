@@ -1,0 +1,25 @@
+Malware => a software program that performs activities without valid permissions and is intended to perform actions,
+Computer virus => a program that infects other programs. it often carries a payload that performs activities
+Worm => A self-replicating program that attacks vulnerable services to spread. 
+		carry
+			- Trojan horse
+			- rootkit
+			- other malware
+Spyware => records what users do.
+Adware => displays ads to users
+Backdoor => alternate way to enter a system, providing easy access to an attacker
+
+Contermeasures 
+	1. antivirus software or dedicated anti-malware tools
+	2. Anti-spyware and anti-adware tools 
+	3. Local system policies and settings
+	4. Firewalls
+	5. Whitelisting applications
+
+Defense
+	1. set up protective mechanisms at every domain and layer
+	2. Establish checkpoints at every network layer and domain category and monitor regularly 
+	3. Use an intrusion detection system/intrusion prevention system(IDS/IPS) and firewall control lists to filter
+	   network-driven attacks
+	4. Apply Sandbox on application-level attacks and scan with antivirus or anti-malware software
+	5. Back up data regularly 

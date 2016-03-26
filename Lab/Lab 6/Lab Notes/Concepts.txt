@@ -1,0 +1,57 @@
+BCP => a plan designed to help an organization continue to perate during and after a disruption. 
+		- purpose and scope
+		- assumptions and planning principles
+		- System description and architecture
+		- Notification or activation phase
+		- Recovery and reconstitution phases
+		- Training plan, testing, and excercises
+		- Maintenance plan
+DRP => specific steps and procedures to recover from a disaster.
+		- Critical business function (CBF) 
+			=> any function considered vital to an organization. if a CBF fails, the organization will lose 
+			   the ability to perform critical operations necessary to meet its mission.
+		- Maximum acceptable outage (MAO)
+			=> the maximum amount of time a system or service can be down before affecting the organizatioin's mission.
+			   this directly affects the requried recovery time.
+		- Recovery time objective (RTO)
+			=> the time frame during which a critical system or function must be recovered.
+			   the RTO <= MAO
+	elements:
+			- purpose and scope
+			- disaster or emergency declaration
+			- communications
+			- emergency response and activities
+			- Recovery steps and procedures
+			- Critical business operations
+			- Recovery operations
+BIA  => a study that identifies the CBFs and MAOs of a DRP. 
+			- includes interviews, surveys, and meeting. 
+			- identify the impact of the failure of one or more IT functions on the business. 
+			- identify the priority of different critical systems. 
+			- scope can include the entire organization. 
+CIRP => outlines the steps taken during a response effort and the roles and responsibilities of the CIR team (CIRT)
+	    members in case an incident occurs. 
+			- who launched the attack
+			- what type of attack occurred
+			- where did the attack occurred
+			- when did the attack occur
+			- why did the attack occur
+			- how did the attack occur
+Risk assessment
+	- Identify threats and vulnerabilities
+			- Identify the likelihood that a risk will occur
+					- Identify asset values
+						- Determine teh impact of a risk
+							- Determine the usefulness of a safeguard or control.
+							
+Quantitative risk assessment
+	=> gathering data and then entering it into standard formulas. the result can help you identify the priority of risks and determine the effectiveness of
+	   security controls. 
+		- single loss expectancy (SLE) => the total loss expected from a single incident.
+		- Annual rate of occurrence (ARO) => the number of times an incident is expected to occur in a year
+		- annual loss expectancy (ALE) => the expected loss for a year. ALE = SLE X ARO 
+Qualitative risk assessment 
+	=> using a scale to define the probability that a risk will occur. can be low, medium, high
+	=> the term impact is used to identify the magnitude of a risk 
+	=> the risk lecel is calculated by multiplying the probability value by the impact value.
+		

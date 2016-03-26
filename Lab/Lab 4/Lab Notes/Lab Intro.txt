@@ -1,0 +1,13 @@
+Organization => are faced with an increase in the number and serverity of threats that can have adverse impacts on operations
+				assets, and individuals. 
+Great tools to management of change in windows platform
+				- Group Policy Objects
+					=> a system administrator or security practitioner to set and enforce key security policies at the Active Directory Forest, Domain
+					   and Organization Unit Level. 
+					   
+			    - Microsoft Security Baseline Analyzer
+					=> discover unwanted operating system changes and non-compliant systems within the network. 
+					=> enables the security practitioner to discover vulnerabilities and patch-level deficiencies 
+					   at the Windows host machine level.
+
+		

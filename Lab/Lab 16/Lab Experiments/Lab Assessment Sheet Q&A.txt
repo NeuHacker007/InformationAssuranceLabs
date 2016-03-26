@@ -1,0 +1,19 @@
+Questions
+
+1. Why is it recommended to update the antivirus software's signature database before performing an antivirus scan
+   on your computer
+	If we don't update the database, the new releases viruses would not be incoporated in. As a result,
+	the Antivirus user cannot defense themselves from latest viruses attacks. 
+	
+2. What are typical indicators that your computer system is compromised?
+	- Slow response opening applications or browsing the internet
+	- Applications not working as they normally would 
+	- Operating system not booting up correctly or not functioning normally
+	- Event logs reporting numerous, unusual alerts
+	- Antivirus software is not running has been disabled, or can't update its virus definitions
+	- Numerous windows pop up when trying to access the Internet or opening a browser 
+3. Where does AVG AntiVirus Business Edition place viruses, Trojans, worms, and other malicious software when it finds them
+	AVG will store these detected items into Virus Vault, where is encrypted
+4. What other viruses, Trojans, worms, or malicious software were identified and quarantined by AVG within the Virus Vault
+
+5. What is the difference between the complete scan and the resident Shield

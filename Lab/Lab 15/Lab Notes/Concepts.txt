@@ -1,0 +1,32 @@
+Common web server vulnerabilities
+	- Easily accessible source code
+	- Server software attacks
+	- Server plug-ins
+Common web application vulnerabilities
+	- Cross-Site Scripting
+		=> allow attackers to inject script code into Web Pages viewed by others. this might
+		   result in the exploitation of trust users have in the web site.
+	- Structured Query Language injection
+		=> insert SQL commands into requests sent by Web applications, protentially exposing data,
+		   deleting information from the database, or leading to other database-focused attacks.
+	- Cross-Site Request Forgery(CSRF/XSRF)
+		=> A CSRF attack attempts to make a trusted user send commands for the attacker. this type
+		  of attack attempts to exploit the trust a web site has in a user.
+tools for detecting 
+	- WebInspect
+		=> a commercial tool for testing Web applications and Web servers	
+	- Nikto
+		=> an open-source Web server scanner that tests for dangerous configurations, files, 
+		   and Common Gateway Interface scripts.
+	- Search engines
+		=> used to find incorrectly configured applications and servers and identify exposed configurations
+		   files and other common issues. 
+Database attacks => attacks that are intended to harm the repository of data on Web servers.
+	- Injection
+		=> Queries injected via a Web application can cause a database to divulge information or to delete
+		   or add data.
+	- Default user name and password
+		=> allow attackers direct access to a database, exposing data or even potentially allowing full control.
+	- Brute force password cracking
+		=> Databases that are not protected against brute force attacks can be attacked by trying every possible
+		   password

@@ -1,0 +1,6 @@
+Microsoft Baseline Security Analyzer (MBSA)
+	=> scans for available updates to teh operating system, Microsoft Data Access Components(MDAC)
+	   Microsoft XML Parser (MSXML), .NET framework, and SQL server.
+	=> uses Microsoft Update Services(WSUS) technologies to scan for insecure configuration settings and
+	   Windows service packs and patches, including components, such as Internet Information Services (IIS)
+	   and COM+, and determine needed updates.

@@ -1,0 +1,38 @@
+Questions
+
+1. What is Zenmap typically used for? How is it related to Nmap? Describe a scenario in which you would use this type of application
+	Zenmap typically used in assess vulnerability of a system. It is the user friendly graphic interface of Nmap which encapsulates many Nmap commands. Usually,
+	we apply this software at the scanning and vulnerability phase of hacking process, paticularly in scanning part. It always used with OpenVAS together.
+2. Which applicatioin can be used to perform a vulnerability assessment scan in the reconnaissance phase of the ethical hacking process
+	Zenmap is used to perform a scan work 
+3. What must you obtain before you begin the ethical hacking process penetration test on a live production network, even before performing the reconnaissance step
+	Before we start our ethical hacking, we need to be authrized by our client first which means that we need to be allowed to enter their system legally. At the same time
+	we need to sign up some documents like (SLA) which defines the scop and responsibility of his hacking activity.
+4. what is a CVE listing? Who hosts and who sponsors the CVE database listing Website
+	CVE means Common Vulnerability Exposures and CVE listing is the lists of those vulnerabilites that are open to public.
+	On it's website, it publishes the known vulnerabilites, the corresponding mitigation solutions(fixes, patches and updates)
+	There is one host and two sponsors involved in the CVE database listing website.It's host is the Mitre Corporation and the two sponsors are Department of Homeland Security and the U.S. National Cyber Security Division
+	
+5. can Zenmap detect which operating systems are present on IP servers and workstations? Which optioin includes that scan
+   Zenmap could detect the operating systems. 
+   Nmap -sV can judge which OS it is through judging which services it is available.
+   SYN scan only can guess what OS is on the server but it cannot give exactly anwser which OS actually the server has.
+   
+6. how can you limit the breadth and scope of a vulnerability scan
+	For openVAS, we can import an .txt file which contains the particular hosts' IP that we want to scan and also we can specify the scan intensity.
+	For Zenmap, we can use "--exclude" option of nmap to exempt those IP hosts that we don't want it to scan.Also, we can choose different intensity to scan such as ping scan, 
+	intense scan etc. 
+	
+7. Once a vulnerability has been identified by OpenVAS, where would you check for more information regarding the identified vulnerability, exploits, and any risk mitigation solution?
+	If a vulnerability was found by OpenVAS, we can go to National Vulnerability Database(Https://web.nvd.nist.gov/view/vuln/search) 
+	and search the case number of this vulnerability(CVE number). On this website, we can found more detailed information about this CVE and it also provide some references to get more
+	about it including solutions to mitigate the vulnerability.
+
+8. What is the major difference between Zenmap and OpenVAS
+	Zenmap help us to know about the overall network environment because it offers us rich and powerful scripts to monitor things like ports/hosts, operating systems, protocols etc.
+	However, OpenVAS provide us with a powerful analytic abilities on vulnerabilites existing within the network. It will generate a user-friendly report on how many vulnerabilities
+	are existing, how many fatal, medium, low are there and also provide us with some descriptions and references which help us go further on these vulnerabilities.
+9. Why do you need to run both tools like Zenmap and OpenVAS to complete the reconnaissance phase of the ethical hacking process?
+	Well, firstly we need use Zenmap to see some potential weakness of the existing network systems. For instance, we need to know that which port/hosts are open to attackers and which
+	kind of services runs and what operation system probably is used. Then, we use OpenVAS to scan these IP address which could tell us what kind of vulnerability that the attackers could
+	exploit and how to mitigate the vulnerability etc.

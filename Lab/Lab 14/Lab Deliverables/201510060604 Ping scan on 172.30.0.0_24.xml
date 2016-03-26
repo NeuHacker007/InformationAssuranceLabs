@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1444136650" profile_name="Ping scan" xmloutputversion="1.04" scanner="nmap" version="6.40" startstr="Tue Oct 06 06:04:10 2015" args="nmap -sn 172.30.0.0/24"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">
+Starting Nmap 6.40 ( http://nmap.org ) at 2015-10-06 06:04 Pacific Daylight Time
+Nmap scan report for 172.30.0.7
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Host is up (0.00s latency).
+MAC Address: 4A:AB:D9:A8:57:B6 (Unknown)
+Nmap scan report for 172.30.0.30
+Host is up (0.00s latency).
+MAC Address: 6E:EB:17:A1:E0:FD (Unknown)
+Nmap scan report for 172.30.0.2
+Host is up.
+Nmap done: 256 IP addresses (3 hosts up) scanned in 10.42 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.30.0.7"></address><address addrtype="mac" vendor="" addr="4A:AB:D9:A8:57:B6"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.30.0.30"></address><address addrtype="mac" vendor="" addr="6E:EB:17:A1:E0:FD"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.30.0.2"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Tue Oct 06 06:04:20 2015" time="1444136660"></finished><hosts down="253" total="256" up="3"></hosts></runstats></nmaprun>

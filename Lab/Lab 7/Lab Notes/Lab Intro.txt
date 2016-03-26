@@ -1,0 +1,24 @@
+asymmetrical encryption
+	=> the sender has two keys: a private key and a public key. 
+	   the sender encrypts with her private key and the receiver decrypts using the sender's public key,
+	   which the receiver obtains from the sender or through a trusted third party
+	   
+drawback
+	- much slower 
+benefits 
+	- guarantee the authenticity 
+
+symmetric encryption
+	=> the sender and receiver use the same key to encrypt and decrypt a given message 
+benefits 
+	- fast
+	- easy to implement 
+drawback	
+	- doesn't guarantee authenticity
+hybrid approach
+	=> the sender encrypt the message with a symmetric key, and then send the message and a copy of the symmetric
+	   key using the sender's asymmetric public key. The initial message and sysmmetric public key are decrypted using the 
+	   sender's public key, and subsequent messages are then decrypted quickly using the symmetric key
+benefits 
+	- full CIA protection as asymmetrical
+	- speed as sysmmetric 

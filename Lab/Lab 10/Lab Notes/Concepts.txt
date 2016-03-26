@@ -1,0 +1,7 @@
+Standard
+	=> a collection of system-specific or procedural-specific requirements. 
+policy
+	=> set by organizations to achieve certain goals and should comply with applicable laws
+Law
+	=> enforceable by the judicial system. its main purpose is to bring justice to society.
+	

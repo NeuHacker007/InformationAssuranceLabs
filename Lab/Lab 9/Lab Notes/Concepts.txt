@@ -1,0 +1,7 @@
+malware => a variety of software programs that intrude upon users and systems and 
+		   perform unintended or undesired operations. 
+How to respond to an attack
+	- Designated contacts to notify in case of an emergency
+	- The planned course of action to resolve each incident
+	- prompt response times and timely security resolutions
+	- the procedure and time for invoking certain security measures

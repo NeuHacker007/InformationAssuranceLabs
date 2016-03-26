@@ -1,0 +1,15 @@
+Complete IT Security grogram
+	=> includes policies, procedures, and controls aimed at keeping systems up-to-date and ensuring that they
+	   stay that way.
+ethical hacking 
+	=> the best ways to close all possible security holes is with ethical hacking.
+  -> purpose
+		=> proactively locate vulnerabilities in an organization's defenses, and correct them to strengthen overall security. 
+  -> process
+		- reconnaissance
+		    - scan target
+				- vulnerability analysis
+					- exploitation 
+						- post attack activities
+Greenbone Security Assistant => web interface used to access OpenVAS database 
+Metasploit has ranked this vulnerability as excellent, indicating that the exploit is almost certain to work						

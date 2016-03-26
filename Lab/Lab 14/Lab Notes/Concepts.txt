@@ -1,0 +1,24 @@
+After the hack complish footprint what should hack do next
+	port scanning => invovles collecting information about the services arunning on the target system.
+					 -> help hackers select the required tools and determine the next steps in hacking
+		- Determine the range of the target network by studying the details IP addresses, which uniquely
+		  identify systems on the internet. It is important to know that some addresses may be listed using
+		  the CIDR notation, such as 10.0.0.0/16. the CIDR notation can provide information about the routing
+		  IP packets.
+		- probe each port, or a group of specifically targeted ports
+		- Map open ports using applications such as OpenVAS to identify the actual applications and services running
+		  on those ports.
+Vulnerability scanning 
+		hacker  => identify vulnerable services that they can attack
+		security professional => identify vulnerabilities in the computer systems on a network to determine if 
+								 and where a system can be exploited and threatened.
+System exploit => a tool hackers use to break into a system and security personnel use to find out vulnerabilities in a
+				  system. 
+privilege escalation => the process of escalating the privileges of a user account to a level where increased access and fewer restrictions are in place
+
+importance of port scanning
+	=> it helps an organization identify externally accessible services. 
+vulnerability scanning 
+	=> helps organizations verify that the services they offer are patched and secure. 
+why would attackers scan systems and networks
+	=> scan systems and networks to find, and potentially access or attack, the servers and services running on those systems.

@@ -1,0 +1,24 @@
+AVG Business Edition software => are designed to stop the spread and activity of viruses
+
+Antivirus program must be able to detect more than a simple virus
+good antivirus program should detect
+	- viruses
+	- worm
+	- Trojans
+	- phishing
+	- spyware
+
+Two approaches of identifing
+	-> suspicious behavior => the program recognizes symptoms of a virus
+	-> dictionary-based detection => uses a signatures database to identify a virus 
+
+Whole components to protect information
+	- antiviruses software 
+	- physical
+	- administrative
+	- technical control
+	- firewalls
+	- intrusion detection and monitoring systems
+	- policy and procedure
+	- encryption tools
+		

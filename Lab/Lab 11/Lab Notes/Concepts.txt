@@ -1,0 +1,35 @@
+Black-hat hackers => who break into computer systems or use them without authorization 
+Gray-hat hackers => who generally walk the line between legal and illegal actions.
+White-hat hackers => who are employed to expose computer systems' vulnerabilities by breaking into systems. 
+
+Adversary Model of cybcrime involves resources, capabilities, intent, motivation, risk aversion, and access.
+penetration testing => a structured method for investigating, uncovering, attacking, and reporting on a system's vulnerability
+
+ -Plan: Determine the need to test, set goals and objectives, and evaluate potential advantages.
+	- Determing the scop: Determine the scope and requirements of the test and list deliverables
+		- Getting the Permission: Identify resources, get approval on the budget, and set actions allowed as part of the test.
+			- Executing: Assign roles, document limitations and assumptions, and perform testing 
+				- Documenting: Document all actions performed and observations made during testing
+					- Conducting Post-Exeution Tasks: Conducting Post-Execution Tasks
+						- Analyzing and Mitigating: Analyzing and Mitigating 
+						
+Chief information security officer(CISO) 
+							- Assisting in planning 
+							- Executing the penetration tests
+							- Analyzing data
+							- Developing recommendation
+							- Writing reports
+							- Assisting in mitigation
+							
+Security analyst
+						- assisting in planning
+						- assigning roles
+						- Identifying resourcecs
+						- Guiding deliverable choices
+						- Reviewing reports
+						- Monitoring security operations
+						- Responding to incidents
+Security Manager
+						- Providing permission to conduct penetration tests
+						- accepting the responsibility for the mitigation of issues identified in the tests.
+						

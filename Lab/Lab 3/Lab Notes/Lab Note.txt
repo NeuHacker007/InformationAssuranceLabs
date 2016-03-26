@@ -1,0 +1,7 @@
+Active Directory => the database that provides a centrally controlled and managed access and security management system
+					for an organizations Windows computer systems.
+biggest challenges faced by Microsoft Windows administrator
+	=>how to handle guest users, such as contract workers, auditors, or partners.
+best practices
+	=> dictate that a guest would be placed in a secure network, isolated from the production network by firewall barriers
+One of the biggest challenges faced by a Windows administrator is how to handle guest users, such as contract workers, auditors, or partners. Typically, best practices would dictate that a guest would be placed in a secure network, isolated from the production network by firewall barriers. If this is not practical, which is often the case with auditors, then clear and specific areas of access should be decided, making them as restrictive as possible. For CIA requirements, local, self-signed certificates are issued to guests who require a higher degree of access. These certificates expire on a specific date and limit the guest¡¯s access. Of course, Access Control Lists to strictly control the access is also mandatory and disabling the guest user in favor of creating short term user accounts will help as well. Creating guest user templates that have the USB ports and CD¡¯s disabled is a means of stopping the introduction of unwanted data, and the theft of company data. Using the newer system of Windows archiving makes restoring any compromised documents easier

@@ -1,0 +1,12 @@
+The Comment box can remain empty. While not required to create a key pair, 
+it can be useful if you are creating a certificate for a specific purpose, such as testing or for 
+a specific client. If you do add a comment, it becomes part of your login name, 
+and will be visible to the receiver
+
+When the key is successfully created, you have several options for handling the key:
+
+    Make a Backup Of Your Key Pair. This option sends a copy of your private key to your computer where you can store it anywhere you'd like.
+
+    Send Certificate By EMail. This option will create a new e-mail and automatically attach your public key certificate.
+
+    Upload Certificate To Directory Service. You can store your certificate on a public Internet server.

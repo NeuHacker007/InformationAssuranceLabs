@@ -1,0 +1,22 @@
+Setting a strong password policy is one of the first steps in implementing a comprehensive security program. Weak passwords allow 
+unauthorized access to your network, and by extension, the sensitive documents, proprietary code, and accounting files stored on it. 
+A strong policy itself is not enough. Continuous monitoring for login success and failure is a good way to detect mischief on the 
+network. An overabundance of failures from a particular user account can indicate a brute force attack. Equally suspicious are 
+successful accesses at odd times or while a given resource is on vacation.
+
+The organization you are working for has updated their password policy. You are charged with implementing that policy in the 
+securelabsondemand.com domain. The new password policy must meet the following criteria.
+
+    · Users may not reuse any of the last 5 passwords
+    · Users must change passwords every 30 days
+    · Passwords may be reset at any time
+    · Password must be a minimum of 10 characters
+    · Password must meet basic complexity
+    · Enforce Domain Policy over Organizational Unit Policy
+    · Users must be “locked out” for 10 minutes, after failing to log in 3 times in a row
+    · All login successes and failures must be logged
+
+In the next steps, you will implement the organization’s password policy using Group Policy. Group Policy uses a layered approach to 
+apply policy at the Local Server, Domain, and Sub-domain (Organizational Unit) level. Policy set the Organizational Unit level take 
+precedence over Domain and Local Policies. Local Policies are overridden by both Domain and Organizational Unit policies. 
+Thus, the order of precedence is: Organizational Unit > Domain > Local. In this policy change, you will change the order of precedence.

@@ -1,0 +1,14 @@
+Penetration tests => 
+					-> can help reveal multiple layers of defense 
+						- OS-level security settings
+						- firewall settings 
+						- antivirus settings
+						- patch and OS update settings
+					-> reveal application layer security protocols 
+					-> validate network layer security settings
+					-> help provide security awareness to managers in the organization
+													- offer instruction on desktop best practice
+													- educate managers & end user on current security incident trends
+
+			
+			

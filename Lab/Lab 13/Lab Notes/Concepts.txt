@@ -1,0 +1,26 @@
+Footprinting => reveal important technical information about an organization 
+			-	first phase of hacking. It involves steps to collect information about the victim computer system 
+				and determine the network range. 
+A hacker can use the following sources when footprinting an organization
+	- The organization's Web site
+	- The organization's contact information
+	- Resumes of key employees
+	- Job decriptions of key roles
+	- Details of important events,policies and standards
+	- Information about Domain Name systems, Internet Protocol ranges, server names, routing information, and mail servers
+Tools 
+	Whois => gain information about an organization's physical address, phone numbers and other contact details
+	Nslookup => extract information about an organization's IP addresses and main servers.
+	Traceroute => identify the path that a specific data packet on a network will take to reach its destination
+
+footprint steps
+		-> Review public presence => Find out information about the organization from publicly available sources
+			-> perform DNS enumeration => Locate information about the domain server of the organization
+				-> Use nslookup and gather zone data => Extract information about IP addresses and mail servers of the organization
+					-> Perform trace routes => Track data packets on a network to gain information about the hosts on a network
+						-> review main servers => Analyze the mailing servers of an organization to find out additional information
+							-> analyze data => Analyze teh data and information gathered by all means and plan for the next step in hacking
+
+Importance of footprint => help them safeguard their information from hackers with mallicious intentions.
+White hat => use footprint to find vulnerabilities and devise safeguarding measures
+Black hat => use footprint to steal information 						

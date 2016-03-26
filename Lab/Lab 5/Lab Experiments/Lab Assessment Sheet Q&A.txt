@@ -1,0 +1,25 @@
+Questions
+
+1. why should a network administrator use Wireshark and NetWitness Investigator together
+Wireshark has powerful capability to capture network packets but its result is hard to read and analysis and NetWitness can help us to read the result of Wireshark, which
+provides a excellent analysis ability on packets but it cannot capture packets over network. So, we need to use both tools to do capture and analysis.
+
+2. What was the IP address for LanSwitchl?
+172.16.8.5
+
+3. When the 172.16.8.5 IP host responded to the ICMP echo-requests, how many ICMP echo-reply packets were sent back to the vWorkstation?
+	4
+4. What was the terminal password for LanSwitch1 and LanSwitch 2?
+LanSwitch1：cisco LanSwitch2：cisco 
+
+
+5. When using SSH to remotely access a Cisco router, can you see the terminal password? why or why not
+ when we use SSH to remote access a Cisco router, we cannot see the terminal password because all the traffic are
+ encrypted instead of transmitting in a manner of clear text. 
+6. What were the Destination IP addresses discovered by the NetWitness Investigator analysis?
+	the destination IP addresses might not be the original destination IP address because when Wireshark works,
+	it shows the source IP and detination IP of a packet at that capturing time.
+7. Are packet-capturing tools like Wireshark less dangerous on switched LANs
+ Wireshark is so powerful that no matter which type of network we use, we can use it to capture all packets on one
+ or several interfaces. If the traffic is not encrypted properly, using SSH for example, through capture results we
+ can know the clear text of password or file contents. 

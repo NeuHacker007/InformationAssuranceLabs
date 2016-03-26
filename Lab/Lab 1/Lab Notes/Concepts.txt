@@ -1,0 +1,86 @@
+Goal of ISS -> protect information's confidentiality, integrity and availability
+Confidentiality => only authorized user can view information
+Integrity => only authorized user can change information
+Availability => authorized user can access information whenever they need
+
+Laws -> ISS 
+1. The Health Insurance Portability and Accountability Act -> secure patient information
+2. The Sarbanes-Oxley Act -> produce accurate and reliable financial reports (Integrity)
+3. The Children's Internet Protection Act -> public school to use and enforce an Internet safty policy
+
+IT information security framework
+Policy : short written statement that defines a course of action; 
+		  applies to the entire organization
+		-> Standard: detailed written definition of how software and hardware are used
+		-> procedure: instructions for how to use the policy and standard
+		-> guideline: a suggested course of action for using the policy, 
+					  standard or procedure
+					  
+7 Domains
+
+ 1) User Domain -> 
+ 2) Workstation Domain => where most users enter the IT infrastructure
+ 3) LAN Domain => LANs organized by function or department
+				- Server -> hub
+ 4) LAN - WAN Domain => From this point, IT infrastructure steps in to wider area -- WAN & Internet
+				- Router -> Firewall
+ 5) WAN Domain => Connect WAN over Internet
+ 6) Remote Access Domain => connect remote end user(employee,parterner) to the IT Infrastructure
+ 7) System/Application Domain => holds all-misson-critical systems, applications and date.
+								     Firewall
+					Mainframe	++++++++++++++++++ Application and Web Servers
+								   Could Computing
+								   
+								   
+Confidentiality 
+				- enforce stringent access control
+				- enforce strong authentication
+				- use strong encryptioin and virtual private network tunneling for secure Ip communications
+				- provide security awareness training to users
+				- Have user sign an acceptable use policy
+?Integrity
+				- Moniter for threats 
+				- Perform regular network and system vulnerability assessment
+				- Use uninterrupted power supplies to help avoid data corruption
+				- For highly critical or sensitive data, perform end-to-end checksums on data transfers.
+Question: In the book it said that integrity is somebody got a full version of sofware without authentication and being autherized. So, how can we understand the first two.
+		  it seems has no relationship with the book definition
+		  
+Availability: 
+			   - Use redundant systems, storage, and power supplies.
+			   - as far as possible, eliminate single points of failure in your infrastructure
+			   - apply filters on exterior IP stateful fire walls and IP router WAN interfaces to reduce chances of DoS attacks
+			   - Implement daily data backups and off-site data storage for monthly data archiving
+			   - use a data classification system to properly label sensitive or private data
+			   - Develop a disaster recovery plan specific to the recovery of mission-critical applications and data to maintain operations
+
+Roles in protecting C-I-A:
+		 - User: weakest link in security chain <- training, policy
+		 - Security Admin: design, execution maintenance security (Manage assets pertinent to network | systems defense | manage vulnerability and threats | implement contermeasures)
+		 - Network Admin: manage resources and change resources | they make sure the security policies are properly implemented from technical aspect. 
+		 - HR personnel:  provide security policy trainings to employee 
+		 - Senior management: ultimately responsible for security (set strategic direction & expectations for security policy | assign responsibility to the necessary resources
+																   to ensure the creation of security policy | understanding the risks facing the org.)
+		 - Third party vendors: help ensure availibility of systems, networks and communications | perform as SLA( Service-Level-agreement 
+																													eg. user acceptable downtime of their services)
+DoS attack solutions
+					 - apply TCP_SYN patch
+					 - implement router filters
+					 - disable unnecessary services and firewalls
+					 - enable user quotas
+					 
+Security breach  								VS  					Security voilation
+  external 																internal
+  security incident driven
+  
+ 
+ assignment:
+    background: malware attack, information leakage
+	questions: 
+				- How world you assess the risks,threats and vulnerability that may have allowed this incident to occur or could allow a similar incident to occur in future
+				- What insights about risks, threats and vulnerabilities can you glean from reports of similar incidents that have occured in other org.
+				- What potential outcomes should the company anticipate as a result of the malware attack and possible exposure of Intellectual property
+				- Which countermeasures would you recommend the company implement to detect current vulnerabilities, respond to teh effects of this and other successful attacks
+				  and prevent future incidents
+	requirement:
+				- write an outline of key points

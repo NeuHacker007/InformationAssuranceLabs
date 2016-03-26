@@ -1,0 +1,25 @@
+Questions
+
+1. What is the first Nmap command you ran in this lab? Explain the switches used
+	nmap -O -v 10.20.100.50. By using this command, it will return the information about what operation system is and a great deal of details of the target to us.
+2. What are the open ports when scanning 192.168.3.25 and their service names?
+	Port 			State          Service
+	80/tcp 			open 			http
+	135/tcp 		open 			msrpc
+	139/tcp 		open 			netbios-ssn
+	445/tcp 		open 			microsoft-ds
+	3389/tcp 		open 			ms-wbt-server
+	5357/tcp 		open 			wsdapi
+	49152/tcp		open			unknown
+	49153/tcp		open			unknown
+	49154/tcp		open			unknown
+	49155/tcp		open			unknown
+	49156/tcp		open			unknown	
+	49157/tcp		open			unknown
+3. What is the command line syntax for running an SMB vulnerability scan with Nmap against
+	nmap --script=smb-check-vulns --script-args=unsafe=1 -p445 
+4. Explain why SMBv2 DoS (CVE-2009-3103) is bad
+    It will allow a denail of services attack. 
+5. What is the operating system of IP address 192.168.40.238
+   we use nmap -O -v 192.168.40.238 to get the information about which OS it is. Then, the answer is FreeBSD 7.0-RELEASE-p1 - 10.0-CURR
+6. What are the reverse IP addresses for the three remote computers scanned in this lab.

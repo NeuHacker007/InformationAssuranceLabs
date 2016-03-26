@@ -1,0 +1,52 @@
+
+Asset => what you are trying to protect
+
+Threat => what you are protecting against - any action that could damage an asset.
+
+bulnerability => any weakness or gap in your security
+
+risk => intersection of assets, threats and vulnerabilities. Asset + Threat + Vulnerability = Risk
+		Risk can only be mitigated rather than completely eliminated.
+		
+Threats
+		- Intentional
+			eg. malicious software | disgruntled employee 
+		    Motivation
+					- anger 
+					- greed
+					- Notoriety -> people want win fame thourgh the attack
+		
+		- Unintentional 
+					eg. hardware failure, application failure, natural disasters
+Vulnerability
+		 - Insecure servers
+		 - Exploitable applications and protocols
+		 - Poorly configured network devices
+		 - Unprotected systems or network resources
+		 - Traffic interception and eavesdropping reveal private communicatioin to unauthorized parties
+		 - Lack of preventive or protective measures allows malware to infiltrate the network
+Criminal profiling => categorizing various of types of computer criminals based on general observations
+
+Window of vulnerability(Wov) => covers a timeline from the moment a vulnerability is discovered by a potential attacker
+							    and identified by the vendor, a fix is created and published and the fix becomes know  and 
+								finally applied.
+Roles in mitigating attacks
+		manner -> firewall, intrusion detection systems, anti malware software, access control, etc.
+		
+		security professioinals => plan, design, monitor security systems
+		Networking professionals => install and support security sytsems.
+		
+security person must
+					- Work out a solution to control risk and mitigate threats
+						- easy to implement
+						- how effective
+					- consider the scope of an attack
+						eg. what is affected, how might one attack lead to another attck, what can hakers do when they 
+						    get the privilege 
+					- evaluate the security solution 
+Security gap => the difference between estabilished security controls and controls needed to address all vulnerabilities
+		mitigation solution
+						1) Identify => identify risk by determining and classifying the risks that might affect your resources 
+						2) Analyze => perform qualitative or quantitative risk assessments. Rank risk in the order of their importance
+						3) Plan => Determine strategies for addressing each risk 
+						4) Respond => avoidance, transference,mitigation and acceptance (4 primary methods for responding to negative risks)

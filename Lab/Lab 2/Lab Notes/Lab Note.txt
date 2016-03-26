@@ -1,0 +1,11 @@
+SYN scan => a form of TCP scanning that is less intrusive on the target host. 
+			it can identify open ports without completing a TCP handshake which might be noticed by network administrators.
+		But 
+			it cannot identify the version of application
+  
+Ping scan => confirms that the machine is available but cannot identify ports,OS
+
+Command: 
+	Nmap -sn -> ping scan
+	Nmap -O  -> make a guess of OS
+    Nmap -sV -> can get more details about OS 

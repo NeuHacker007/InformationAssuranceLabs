@@ -1,0 +1,6 @@
+five-step approach to seek out and compromise targeted hosts
+		1. reconnaissance
+		2. scanning
+		3. vulnerability analysis
+		4. exploitatioin 
+		5. post-attack activities (remediation of the vulnerability)

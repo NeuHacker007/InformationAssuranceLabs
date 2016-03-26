@@ -1,0 +1,17 @@
+Security policy environment => a security program addresses directives through policies and their supporting elements,
+							   such as standards, procedures, baselines, and guidelines.
+Security policy framework => fundation of an organization's information security program
+
+Wide acceptance industry-standards framework
+		- control objectives for information and related Technology
+			=> a widely accepted set of documents commonly used as teh basis for an information security program
+		- International Organization for Standardization/International Electrotechnical commission (ISO/IEC) 27000 series.
+			=> this is an internationally adopted standard for any information security management program in any organization
+IT Governanace => the specific actions an organization takes to ensure compliance with its policies, standards, baselines
+				  procedures, and guidelines when the ultimate goal of the organization is to meet business requirements.
+consequences of noncompliance with security policies
+				- Decreased confidentiality, integrity and availability 
+				- confusion during an attack
+				- Monetary liability for the organization
+				- Legal liability 
+				- Damaged reputation

@@ -1,0 +1,30 @@
+
+The mobility and flexibility offered by wireless networks (WLAN) encourages many organizations to 
+include wireless within their infrastructure, but it opens the company to risks not found in a wired network. 
+Wireless access points are extremely inexpensive and easy for novice to configure. An employee could plug in a wireless access point 
+to the network jack at his or her desk and allow an unauthorized user to access the network and, possibly, unauthorized systems.
+
+There are inherent risks, threats, and vulnerabilities within WLAN infrastructures. 
+Some WLANs are implemented with no encryption, while others use only WEP (Wired Equivalent Privacy) which uses only 
+a weak 40-bits of encryption. Users frequently share passwords to allow others access to the WLAN. 
+Additionally, most users unknowingly broadcast their SSID (Service Set Identifier) information, their network's name, in cleartext. 
+Without the use of VPN or encryption technology, this information is easily captured by readily-available scanners. 
+Isolation, firewalls, and even IDS/IPS devices should be considered as part of your WLAN layered security strategy.
+
+There are also risks involved with logging onto access points in airports or other public places, 
+as an attacker can enable a rogue wireless access point to capture credentials and other data while 
+an unsuspecting user connects to the Internet using a free WLAN connection. Using a mobile cell phone or external WLAN 
+as a WiFi connection point could allow others to bypass internal corporate security solutions. 
+It important to have a wireless access policy and to conduct regular site surveys and audits. 
+Improperly configured WLANs can provide unrestricted access to an organization's entire network environment.
+
+Other security countermeasures that can be enabled on your wireless access point (WAP) include:
+
+    Enabling MAC address filtering on the WAPs. These addresses can be spoofed.
+    Disabling SSID broadcast. The SSID can still be found through other means.
+    Limiting the amount of available IP host addresses on the WLAN DHCP server to prevent unauthorized DHCP leases.
+    Enabling WPA2 to maximize encryption and ensure data transmission confidentiality. WPA2-Enterprise utilizes additional 
+	IT infrastructure such as a RADIUS server that helps authenticate and secure against unauthorized access.
+    
+	Utilizing hashing for data transmissions and emails through WLANs to ensure data integrity. 
+		

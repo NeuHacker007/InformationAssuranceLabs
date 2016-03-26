@@ -1,0 +1,45 @@
+common incident responses address:
+	- Individual computer system compromise
+	- Groups of computer systems that are compromised
+	- Compromise of a public-facing web site
+	- Compromise of user or organizational data
+	- Exposure of regulated data
+
+What should be included in an IRP
+	=> have the necessary measures for handling security incidents and providing legal protection to an organization,
+	   provide formats and guidelines for creating a security incident report. include the roles and responsibilities of individuals 
+	   involved in incident response and the communication plan to be used during an incident.
+How should an IRP be created? Who should be involved in the creation of an IRP
+	=> created by using existing templates provided by the Sysadmin, Audit, Network, Security Institute or the National Institute of Standards
+	   and Technology
+	=> created in coordination with the groups affected by it, such as information technology, legal, management, and the user support.
+
+What are the common errors associated with incident responses and IRPs?
+	=> To not have or follow an IRP
+	=> To document an IRP partially
+	=> To investigate an incident response partially
+	=> To jump to conclusions
+	=> To complete the response before the full extent of the issue has been determined.
+
+BCP
+	- Defines how an organization maintains its daily business in the evetn of a security incident 
+	- Ensures protection for important services and documents
+	- Employs business impact analysis to analyze and mitigate risks
+	- Enables the organization to continue its operations in the event of a disaster by using techniques such as fault tolerance and high
+DRP
+	- helps in cleaning up and restoring the business in the event of a disaster
+	- Defines how personnel and assets will be protected and restored in the evetn of a disaster 
+	- Includes a list of individuals who will take care of the recovery process and hardware and software inventory
+	- Includes steps to respond to and address outage and ways to restore affected information
+IRP importance
+	=> It creates a predictable process 
+	=> reduces chances of errors 
+	=> ensures that all necessary steps are followed
+	=> provides a framework that other organizations can follow
+	=> can provide a legally defensible documented process
+Advantages of an IRP 
+	=> can avoid mistakes during incident response by using an IRP. They can effectively respond to and follow a specific process to
+	   address security incidents rather than building a process each time an incident occurs.
+when should an incident response start and why 
+	=> should start wwhen an event is determined to be a security incident ass defined by the organization's incident response policy,
+	   that is, when a compromise is of significant scope or when the compromise affects sensitive data or systems.

@@ -1,0 +1,13 @@
+Cryptogrphy's security goals
+	- confidentiality
+		=> which means keeping information secret from all but the authorized people 
+	- Integrity
+		=> ensures the informaiton has not been changed by a third party or even by the sender after transmission
+	- Authentication
+		=> confirms the identity of an entity. it can be the sender, the sender's computer, some device, or
+		   some information 
+	- Nonrepudiation
+		=> a way to prevent a party from denying a previous statement or action
+	
+
+PKI (public key infrastructure)

@@ -1,0 +1,9 @@
+Strong encryption
+	- use a "peer-reviewed" algorithm 
+	- appropriate configuration and keeps keys a secret
+	- a well-defined cipher in a secure encironment
+
+Weak encryption	
+	- uses a "secret" algorithm and recoverable keys
+	- poorly chosen bit length for data sensitivity or odd bit lengths for "added security"
+	- uses a broken cipher or one with known flaws

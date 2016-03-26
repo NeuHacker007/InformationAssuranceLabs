@@ -1,0 +1,278 @@
+MS08_067 exploit => indicates that the sever either doesn't have a service pack installed or is SP2 with no additional hotfixes applied to it.
+		 exploit => using Metasploit would be able to "root" the box remotely, allowing them to eavesdrop(with process key logging and screen printing),
+					create additional user accounts, and more.
+					
+SMBv2 DoS => allow a denail of service attack with the BSOD(Blue Screen of Death), making 192.168.3.25
+
+SSH-hostkey.nse vulnerability scan allows an attacker to grab three encrypted footprint keys
+	- DSA => Digital Signature Algorithm 
+						-> Faster for signature generation, but slower for validation, security strength comoared to RSA
+	- RSA => Rivest,Shamir and Adelman
+						-> Faster at validatioin, but slower at signature generation. It is used for encrypting and signatures.
+	- ECDSA => Elliptic curve digital signature algorithm
+						-> A new algorithm that will help with performance on the web.
+Trojan Aliases：
+		         Back Orifice, BO, CDC-BO, BOServer,boclient,Orifice, Hacktool, and back_Orifice
+				 
+Trojan BO => allows the BOclient to control the remote system as if they are looged on locally Key logging, screen printing, man in middle attack, 
+
+Side-effect of --script-args=unsafe=1 => it can shutdown the target machine
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Choosing a Firewall Rule Type
+Choosing a firewall rule type
+Windows Firewall with Advanced Security provides four basic types of firewall rules. By using one of these firewall rule types, you can create exceptions to explicitly allow or explicitly deny a connection through the firewall.
+
+You can change the settings for any of these firewall rules after you create them. You can add further specificity to the criteria for the firewall rule, for example, to specify to which users or computers the firewall rule applies, to which scope the firewall rule applies, and to which interface types the firewall rule applies. To make these changes, right-click the firewall rule in the Results pane and select Properties.
+
+ Note  
+ As a best practice, give the firewall rules a unique name. Unique names make management using the netsh commands much easier.
+ 
+
+Program
+You can use this type of firewall rule to allow a connection based on the program that is trying to connect. This provides easy configuration to allow connections for Microsoft Outlook or other programs. It is also useful if you are not sure of the port or other settings required to allow access. You only need to specify the path to the program executable (.exe) file.
+
+Port
+You can use this type of firewall rule to allow a connection based on the port over which the remote user or computer is trying to connect. You specify the protocol (either UDP or TCP) and the local port. You can specify more than one port number.
+
+Predefined
+You can use this type of firewall rule to allow a connection by selecting one of the programs or experiences from the list. Most of the well known services and programs available on computers running this version of Windows appear in this list.
+
+Custom
+You can use this type of firewall rule to create a firewall rule that you can configure as needed to allow a connection based on criteria not covered by the other types of firewall rules.
+
+Additional references
+Firewall Rules 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Program
+Use this wizard page to specify how Windows Firewall with Advanced Security will match criteria based on which program on the local computer is sending the packets to, or receiving the packets from, the remote computer. If all other criteria are matched, Windows Firewall with Advanced Security will take the action that you specify on the Action page.
+
+ Note  
+ To specify services using the wizard, choose the Custom option on the Rule Type page of the wizard.
+ 
+
+All programs
+Use this option to specify that packets being received by any program will match.
+
+This program path
+Use this option to match packets from a specific program. You can either specify the program path (including environment variables) or browse to the program executable (.exe) file and select it.
+
+Adjusting these settings after creating the firewall rule
+You can also adjust these settings in the Firewall Rule Properties dialog box in the Inbound Rules and Outbound Rules nodes. To change the program path, use the Programs and Services tab.
+
+--------------------------------------------------------------------------------------------------------------
+Firewall Rule Properties - Protocols and Ports
+Specifying Protocols and Ports
+You can further refine the exception by specifying the protocol and ports to which the rule applies.
+
+Protocol type and number
+If you specified the Custom protocol type, you can specify a protocol by its protocol number. You can use any protocol number listed by the Internet Assigned Numbers Authority (IANA).
+
+The following table provides a partial list of the protocols, their protocol numbers, and, where available, a brief description.
+
+
+Protocol (Protocol Number)  Description  
+Any
+ Used so that rule settings will apply to any protocol, even if it is not in the following list.
+ 
+Custom
+ Used to specify a protocol by its protocol number. You can use any protocol number listed by IANA.
+ 
+EGP - Exterior Gateway Protocol (8)
+ Used for transferring routing information to gateways between autonomous systems. These autonomous systems are large networks, such as regional segments of the Internet.
+ 
+GRE - Generic Routing Encapsulation (47)
+ Used to encapsulate a variety of generic network layer packets. The protocol is designed to be stateless.
+ 
+HMP - Host Monitoring Protocol (20)
+ Used to collect information from hosts in various networks for the purpose of monitoring these hosts. (RFC 869).
+ 
+HOPOPT - IPv6 Hop-by-Hop Option (0)
+ Used to alert routers that an IP datagram contains control data that the router will need to handle. The router performs additional parsing on the packets with this option set in the header. (RFC 2711)
+ 
+ICMPv4 - Internet Control Message Protocol (1)
+ Used to send errors and other messages used to analyze networks.
+ 
+ICMPv6 - Internet Control Message Protocol for IPv6 (58)
+ Used to send errors and other messages used to analyze networks.
+ 
+IPsec AH - Internet Protocol Security (IPsec) using Authentication Header (AH) (51)
+ Uses the Authentication Header (AH) method to provide authentication and message integrity using a hashing function.
+ 
+IPsec ESP - Internet Protocol Security (IPsec) using Encapsulating Security Payload (ESP) (50)
+ Uses the Encapsulating Security Payload (ESP) method to provide authentication, message integrity, and message privacy using a hashing function and encryption.
+ 
+IPv6 - Internet Protocol version 6 (Related protocol numbers: 0, 43, 44, 50, 51, 59, 60)
+ Improves on Internet Protocol version 4 (IPv4) by vastly increasing the number of available addresses and by enabling more efficient routing, simpler configuration, built-in IP security, better support for real-time data delivery, and other essential enhancements.
+ 
+IPv6NoNxt - No-Next-Header for IPv6 (59)
+ Used to communicate that there are no additional headers to process.
+ 
+IPv6Opts - Destination Options for IPv6 (60)
+ Used to indicate that the next header is the Destination Options header, which is used to specify processing or delivery parameters to either intermediate or final destinations.
+ 
+L2TP - Layer 2 Tunneling Protocol (115)
+ Used to facilitate virtual private network (VPN) connections.
+ 
+RAW - (none)
+ Describes any IP protocol other than TCP or UDP.
+ 
+RDP - Reliable Data Protocol (27)
+ Supports bulk transfers of data in a reliable, connection-oriented way. (RFC 908 and RFC 1151)
+ 
+RVD - MIT Remote Virtual Disk Protocol (66)
+ This protocol is used to control computers from a remote computer.
+ 
+TCP - Transmission Control Protocol (6)
+ Provides a reliable, connection-oriented packet delivery service and is based on point-to-point communication between two network hosts. TCP guarantees delivery and verifies sequencing for any datagrams.
+ 
+UDP - User Datagram Protocol (17)
+ Provides fast, lightweight, unreliable transportation of data between TCP/IP hosts. Unlike TCP, UDP does not guarantee delivery or verify sequencing for any datagrams.
+ 
+XNS IDP - Xerox Network Systems - Independent Datagram Protocol (22)
+ Used to configure, enable, and disable Xerox Network System protocol modules on both ends of a Point-to-Point Protocol (PPP) connection (RFC 1764).
+ 
+
+Local port
+If you are using the TCP or UDP protocol type, you can specify the local port by using one of the choices from the drop-down list, or by specifying a port or a list of ports. The local port is the port on the computer on which the firewall profile is applied.
+
+Remote port
+If you are using the TCP or UDP protocol type, you can specify the local port and remote port by using one of the choices from the drop-down list, or by specifying a port or a list of ports. The remote port is the port on the computer that is attempting to communicate with the computer on which the firewall profile is applied.
+
+ICMP Settings
+Click the Settings button to configure settings for Internet Control Message Protocol (ICMP). The Settings button is enabled when you choose the ICMPv4 or ICMPv6 protocol types.
+
+Additional references
+Firewall Rule Properties - Customize ICMP Settings 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scope
+Scope is the local and remote addresses for an inbound or outbound firewall rule. You use scope to specify the IP addresses, ranges, subnets, or keywords (applies to remote computers only) that represent IP addresses for the local computer or the remote computer for the rule. The rule is then applied to any connection between any of the local and remote addresses that also meet the other criteria in the rule. Keywords represent sever types, such as Local Subnet, DNS Server, DHCP server, WINS Servers, and Default Gateway. IP addresses are derived by expanding keywords at run time.
+
+The rule is applied between any computer in the Local Addresses list and any computer in the Remote Addresses list.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action
+Use this wizard page to specify the action Windows Firewall with Advanced Security will take for incoming or outgoing packets that match the firewall rule criteria.
+
+Allow the connection
+Use this option to allow a connection that matches all specified criteria. This option will allow connections no matter if they have been protected by using IPsec, as defined by a connection security rule.
+
+Allow the connection if it is secure
+Use this option to specify that only connections that are protected by using IPsec are allowed. These settings are defined in a connection security rule. Connections from computers or users that do not match the criteria in this rule will be filtered according to another rule or according to the settings for the active profile.
+
+When you choose this option, the Users and Computers page is automatically added to the wizard. You can use this page to specify the users or computers to whom you want to grant access, or leave the page blank to allow access to all users and computers. If you choose to specify users or computers, you must use an authentication method that includes user or computer information as appropriate because Windows Firewall with Advanced Security will use the authentication method from the connection security rule to match the users and computers you specify. For example, for computers, you can use Computer (Kerberos V5) or Computer Certificate with certificate-to-account mapping enabled. If you do not specify users or computers, you can use any authentication method.
+
+Require the connection to be encrypted
+Use this option to require that all communications that match the rule criteria use data encryption as defined in a connection security rule. If the peer computer does not support data encryption, then the connection is blocked. Windows Firewall with Advanced Security uses the Data Protection settings on the IPsec Settings tab of the Windows Firewall with Advanced Security Properties dialog box.
+
+Override block rules
+Use this option to allow the connections that match this firewall rule to override any Block firewall rules. This option is also known as authenticated bypass. Normally, rules that explicitly block connections have priority over rules that allow connections. If you use this option, the connection is allowed even if another rule blocks the connection. This option is most often used for vulnerability scanners. If you do not use this option, any Block firewall rules that match the same firewall rule criteria will take precedence and the connections will be blocked. If you select this option, you must specify at least one computer or computer group for authorization on the Users and Computers page of the wizard.
+
+ Notes  
+ The Override block rules option is not for outbound firewall rules. 
+Also, if you have configured Inbound connections to be Block all connections under State on the Windows Firewall with Advanced Security Properties dialog box, then the connections will be blocked, regardless of this option's setting. 
+ 
+
+Block the connection
+Use this option to explicitly block communications with peers when the packet information matches the firewall rule criteria. The block action takes precedence over the allow action, unless the Override block rules option is selected when the firewall rule is created.
+
+Adjusting these settings after creating the firewall rule
+You can also adjust these settings in the Firewall Rule Properties dialog box in the Inbound Rules and Outbound Rules nodes. To change the action for a rule, right click the rule, select Properties, and then use the General tab.
+
+Additional references
+Firewall Rules 
+
+Users and Computers 
+
+Advanced Integrity and Encryption 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Domain
+This rule will be applied only to the domain profile. The domain profile is applied when a computer is connected to a network in which the computer's domain account resides.
+
+Private
+This firewall rule will be applied only to the private profile. The private profile is applied when a computer is connected to a network in which the computer's domain account does not reside, such as a public network like the Internet. The private profile settings should be more restrictive than the domain profile settings.
+
+Public
+This firewall rule will be applied only to the public profile. The public profile is applied when a computer is connected to a domain through a public network, such as those available in airports and coffee shops. The public profile settings should be the most restrictive because the computer is connected to a public network where the security cannot be a tightly controlled as it is in an IT environment.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Firewall Properties - Profiles
+Firewall profiles
+A firewall profile is a way of grouping settings, such as firewall rules and connection security rules, that are applied to the computer depending on where the computer is connected. On computers running this version of Windows, there are three profiles for Windows Firewall with Advanced Security. Only one profile is applied at a time. 
+
+The following profiles are available:
+
+
+Profile  Description  
+Domain
+ Applied when a computer is connected to a network in which the computer's domain account resides.
+ 
+Private
+ Applied when a computer is connected to a network in which the computer's domain account does not reside, such as a home network. The private profile settings should be more restrictive than the domain profile settings.
+ 
+Public
+ Applied when a computer is connected to a domain through a public network, such as those available in airports and coffee shops. The public profile settings should be the most restrictive because the computer is connected to a public network where the security cannot be as tightly controlled as within an IT environment.
+ 
+
+You can configure any profile, even one that is not currently being applied. If you do not alter profile settings, their default values are applied whenever Windows Firewall with Advanced Security uses the profile. It is recommended that you enable Windows Firewall with Advanced Security for all three profiles.
+
+A profile must be configured for both firewall rules and connection security rules.
+
+State
+State selections determine whether Windows Firewall with Advanced Security uses the profile settings and how the profile handles inbound and outbound network messages.
+
+Firewall state
+Select On (recommended) to have Windows Firewall with Advanced Security use the settings for this profile to filter network traffic. If you select Off, Windows Firewall with Advanced Security will not use any of the firewall rules or connection security rules for this profile.
+
+Inbound connections
+This setting determines the behavior for inbound connections that do not match an inbound firewall rule. The installed behavior is to block connections unless there are firewall rules to allow the connection. You can choose the following behavior for inbound connections:
+
+
+Selection  Description  
+Block (default)
+ Blocks all connections that do not have firewall rules that explicitly allow the connection.
+ 
+Block all connections
+ Blocks all connections, regardless of any firewall rules that explicitly allow the connection.
+ 
+Allow
+ Allows the connection unless there is a firewall rule that explicitly blocks the connection.
+ 
+
+Outbound connections
+This setting determines the behavior for outbound connections that do not match an outbound firewall rule. The installed behavior is to allow connections unless there are firewall rules to block the connection. You can choose the following behavior for outbound connections:
+
+
+Selection  Description  
+Block
+ Blocks all connections that do not have firewall rules that explicitly allow the connection.
+ 
+Allow (default)
+ Allows the connection unless there is a firewall rule that explicitly blocks the connection.
+ 
+ Caution  
+ If you set Outbound connections to Block and then deploy the firewall policy by using a Group Policy object, computers that receive it cannot receive subsequent Group Policy updates unless you create and deploy an outbound rule that enables Group Policy to work. Predefined rules for Core Networking include outbound rules that enable Group Policy to work. Ensure that these outbound rules are active, and thoroughly test firewall profiles before deploying.
+ 
+
+Settings
+Use these settings to configure several Windows Firewall with Advanced Security behaviors, such as who can change Windows Firewall with Advanced Security settings.
+
+Logging
+Use these settings to configure how Windows Firewall with Advanced Security logs various events, how big the log file can grow, and where the log file is located.
+
+Additional references
+Firewall Profiles 
+
+Customize Settings for a Firewall Profile 
+
+Customize Logging Settings for a Firewall Profile 
+
+Firewall Properties - IPsec 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------

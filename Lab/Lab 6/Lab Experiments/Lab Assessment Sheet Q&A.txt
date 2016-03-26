@@ -1,0 +1,24 @@
+Questions
+
+1. What is teh purpose of the business impact analysis
+    the purpose of the BIA document is to determine the impact to an organization in the event that key processes and technology are not available. 
+2. What is the difference between a disaster recovery plan(DRP) and a business continuity plan(BCP)
+   In the BIA, the BCP is a perior step of DRP. BCP gives a plan on how to continue business after the event and it specifies responsibility 
+   and supporting structures. DRP gives the specific procedures that how can we get system bask to work normally when bad event happens 
+3. What are the commands used in Windows 2012 to mount the NFS share on the Linux server. 
+	mount -o mtype=hard 172.30.0.200:/var/www *
+4. Is creating redundancy for systems such as Active Directory or Web servers a part of the DRP or the BCP
+	it's part of the BCP 
+5. Why use the mklink command 
+	The mklink command creates a symbolic link so that remote Z: drive can be accessed as local folder called www on the C:
+	drive. this type of link enables tools like xcopy to work on remote drives by making them appear local to the OS
+6. What role/service is Windows 2012 Server Backup part of 
+	A. Windows Group Policy
+	B. Windows Collaboration Server 
+	C. Windows Server Essentials Experience correct
+	
+7. Which Linux file makes a local share available to NFS clients.
+	A.transports
+	B.imports
+	C.fstab
+	D.exports correct 

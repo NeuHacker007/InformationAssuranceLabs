@@ -1,0 +1,34 @@
+Questions
+
+1. What information can you obtain by using the WHOIS tool contained within Sam Spade
+	Through Samp Spade, we can get the server host name, domain name, server's addresses, administrator contact information and also all the domain's information
+	including their real name, mail address, country and telephone etc.
+2. Besides the WHOIS utility covered in this lab, what other functions did you discover are possible with the Sam Spade utility
+	ping, nslookup, ip block, dig, traceroute, finger, smtp verify, time,blacklist,abuse lookup
+	
+3. What is the purpose of the tracert command? What useful information does the trace route tool provide? How can this information be used to 
+   attack the targeted website
+   
+4. Is Sam Spade an intrusive tool? What is your perspective on the use of a freeware utility such as Sam Spade
+	No, 
+5. By its nature, WHOIS information must be publicly available. What do you think companies and organizations should do with regard to this information.
+	Although WhoIS information should be publicly available, companies and organizations still can disguise themselves by utilizing the agent server technolgy.
+	In this method, WhoIS command only can find the user information on agent server rather than directly access companies' and organizations' confidential user
+	information.
+6. How can you find out who is the CEO of a company
+	Generally, the CEO of a company is open to public, we can use some search engines like Google, Bing to search the directors of the company. Then, we will get
+	answer.
+7. What is the goal when trying to use a search engine for data gathering or footprinting
+	the purpose of use search engine is that we can obtain both official release information of a company and also information in publications and other websites.
+	Through these information, attackers can find somepeople or assets that they are interested in to act a potential attack.
+8. From the basis of the information you uncovered, who are the primary technical contacts for the apples.com, oranges.com and bananas.com domains
+	Apples.com: JD1-APPLES | Oranges: Sparrow JD1-ORANGES | Bananas.com: Linda Stone JD1-BANANAS
+9. Where do you think the servers are located that host the apples.com, oranges.com and bananas.com domains? provide evidence to support your claim.
+	According to the return information of command WhoIS, we know that the three servers located as follows:
+	- apples.com: the server location might be Gambia
+	- Oranges.com: the server location might be the United States
+	- bananas.com: the server location might be the United States.
+10. What are the primary IP addresses for DNS servers hosted on the apples.com,oranges.com, and bananas.com domains 
+	apples.com: 10.20.100.20
+	oranges.com: 192.168.40.9
+	bananas.com: 192.168.3.5

@@ -1,0 +1,38 @@
+Questions
+
+1. Both Wireshark and NetWitness Investigator can be used for packet capture and analysis. 
+   Which tool is preferred for each task, and why? 
+   Wireshark -> packet capture & NetWitness Investigator -> analysis
+   NetWitness Investigator has a limitation of 1G protocol capture per session but Wireshark doesn't have such limitation
+   Wireshark can be used to analyze capture files, but netWitness Investigator is a seven-layer  protocol analyzer that
+   provides detailed protocol analysis and protocol behavior analysis.
+2. What is the significance of the TCP three-way handshake for applications that utilize TCP as
+   transport protocol
+
+3. How many different source IP host address did you capture in your protocol capture?
+	9| 172.30.0.2, 192.168.1.99, 172.16.8.99,172.16.0.99, 172.30.0.11, 172.30.0.10, 172.17.8.99, 172.16.20.99,0.0.0.0 
+4. How many different protocols did your protocol capture session have? What function in Wireshark provides
+   you with a breakdown of the different protocol types on the LAN segment?
+   Address Resolution protocol, transmission control protocol, ssh protocol, ISO 8073/x.224 COTP connection-Oriented Transport Protocol
+   File Transfer Protocol, User Datagram protocol, SMB(Server Message Block Protocol), SMB MailSlot Protocol, Microsoft Windows broswer Protocol,
+   Trivial File Transfer Protocol, Internet Group Management Protocol,
+	
+	Wireshark -> Statistics -> protocol hierarchy
+   
+5. How and where can you find Wireshark network traffic packet size counts? Can you distinguish how many of 
+   each packet size was transmitted on your LAN segment? Why is this important?
+   Wireshark -> statistics -> packt lengths. 
+   we can know it through the packet length distribution data 
+   ?
+6. why is it important to use protocol capture tools and protocol analyzers as an information systems security professional?
+	By using these protocol capture and analysis tools, we could make up a benchmark which can be used for experts to know which is the normal traffic
+	and which is abnomal. In addition, these tools help experts to locate problems and respond to them as soon as possible. 
+	
+7. What are some challenges to baseline analysis?
+   For baseline analysis, we met the following challenges: simplifying the data for better analysis, dealing with large-size capture file,
+   working with multiple tools to gain an accurate perspective on the netwrok.
+8. Why would an information systems security practitioner want to see netwrok traffic on both internal and external network traffic
+	By scanning both internal and external network traffic, experts can be better prepared to prevent some attacks from succeeding.
+9. Which transactions in the lab used TCP as a transport protocol? Which used UDP? Which ports were used in this lab.
+	Telnet(port 23), SSH(port 22) , FTP(port 21), rdp(3389) use TCP
+	netbios-dgm(port 138), NetBIOS name service - netbios-ns (port 137), TFTP(69) -> UDP 

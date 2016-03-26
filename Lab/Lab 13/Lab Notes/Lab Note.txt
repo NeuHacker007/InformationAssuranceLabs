@@ -1,0 +1,11 @@
+Sam Spade => a useful tool that combines many common netwrok information functions into a convenient single interface.
+Whois => registry service will return information about the domain owner,including contact names, numbers, addresses, and the names of associated servers. 
+         eg. used to verify whether the domain name is available or whether it ahs been registered
+nslookup => perform DNS queries, allowing you to look up the IP addreses associated with particular domain names.
+		- set type=any => return any information it uncovers for subsequent searches.
+tracert => used to identify the network path that must be followed to reach one system from another
+			- provides the names and IP addresses of all intermediate systems and can be used to identify potential intermediate attack points
+			- estimate the geographic location of a server
+			
+Search engines  => allow data gatherers to find a large amount of information about a company, using not only the officially released inforamtion but
+				   also information in publications and other websites

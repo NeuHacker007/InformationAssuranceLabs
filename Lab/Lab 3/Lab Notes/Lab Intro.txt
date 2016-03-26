@@ -1,0 +1,6 @@
+Confidentiality => preventing the disclosure of secure information to unauthorized individuals or systems.
+Integrity => maintaining and assuring the accuracy of data over its life-cycle
+Availability => data must in highly redundant, highly protected storage
+
+Active Directory Domain structure => the central repository for all domain security records.
+Two factor authentication => combines something you know with something you are or something you possess.

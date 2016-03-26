@@ -1,0 +1,34 @@
+The essence of intrusion detection is the process of detecting potential misuse or attacks and the ability to respond based on the alert 
+that is provided. Best practices in a network environment is to have host-based intrusion detection systems enabled on critical servers 
+and workstations to provide your network and security organization with real-time alerts and alarms pertaining to potential system 
+compromise and/or unauthorized access.
+
+In the next steps, you will configure Snort on the TargetSnort virtual machine to detect vulnerability scans. Snort is an open source 
+network intrusion prevention and detection system (IPS/IDS), capable of performing real-time traffic analysis and packet logging on 
+IP networks. It can perform protocol analysis, content searching/matching, and can be used to detect a variety of attacks and probes, 
+such as buffer overflows, stealth port scans, CGI attacks, SMB probes, OS fingerprinting attempts, and much more.
+
+
+The essence of intrusion detection is the process of detecting potential misuse or attacks and the ability to respond based on the 
+alert that is provided. Best practices in a network environment is to have host-based intrusion detection systems enabled on critical 
+servers and workstations to provide your network and security organization with real-time alerts and alarms pertaining to potential 
+system compromise and/or unauthorized access.
+
+In the next steps, you will configure Snort on the TargetSnort virtual machine to detect vulnerability scans. Snort is an open 
+source network intrusion prevention and detection system (IPS/IDS), capable of performing real-time traffic analysis and packet logging 
+on IP networks. It can perform protocol analysis, content searching/matching, and can be used to detect a variety of attacks and probes, 
+such as buffer overflows, stealth port scans, CGI attacks, SMB probes, OS fingerprinting attempts, and much more.
+
+OpenVAS recognizes three distinct roles:
+
+    User: Only enough privileges for everyday use.
+    Administrator: Includes extra administration privileges, like the ability to add users or synchronize the feed.
+    Observer: Only enough privileges to view resources. That is, an observer is forbidden from creating, removing, modifying or 
+			  using all tasks, targets, configurations, etc. Furthermore, an observer may only view these resources when the owner 
+			  of the task adds the observer to the task's observer list. 
+	
+	It is possible to identify the digital signatures of common reconnaissance and probing scans, such as Ping, Nmap, and OpenVAS. 
+	Program your IDS and IPS devices to specifically alert and block reconnaissance and probing IP packets that are commonly used by 
+	these attack tools. All of the normal hacking applications and tools that generate ICMP, IP, UDP, and TCP should also be identified 
+	and blocked on your external IDS/IPS device, including denial of service (DoS) and distributed denial of services (DDoS) digital 
+	signatures.

@@ -1,0 +1,10 @@
+Cross-site scripting (XSS)
+	=> the malicious insertion of scripting code to extract data or modify a Web site's code, application,
+	   or content. 
+	- Non-persistent XSS vulnerabilities are the most common, usually targeted via poisnoned URL links sent to users.
+	- persistent XSS vulnerabilities are a more serious variety where data has been saved to the server and can modify how
+	  applications or services operate. 
+reflective cross-site scripting attack
+	=> a non-persistent attack in which all input shows output on the user's/attacker's screen and does not modify data stored
+	   on the server.
+

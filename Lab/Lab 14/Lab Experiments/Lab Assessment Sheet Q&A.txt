@@ -1,0 +1,51 @@
+Questions
+
+1. What are the five steps of ethical hacking
+	the five steps are reconnaissance, scan target, vulnerability analysis, exploition, post-attack activities
+2. During the reconnaissance step of teh attack, what open ports were discovered by Zenmap? What services were running on those ports
+During the reconnaissance step, from the result of Zenmap, we found total 23 open ports and each port provides a specific services. These open ports and services are list below
+Port	Protocol	State		Services
+21	Tcp	open	ftp
+22	Tcp	Open	ssh
+23 	Tcp 	Open	telnet
+25	Tcp	Open	smtp
+53	Tcp	Open	domain
+80	Tcp 	Open 	http
+111	Tcp	Open	rpcbind
+139	Tcp	Open	netbios-ssn
+445	Tcp	Open	netbios-ssn
+512	Tcp 	Open	exec
+513	Tcp	Open	login
+514	Tcp	Open 	shell
+1099	Tcp	Open	java-rmi
+Continue …
+
+
+port	protocol	state	service
+1524	Tcp	Open	shell
+2049	Tcp	Open	nfs
+2121	Tcp	Open	ftp
+3306	Tcp	Open	mysql
+5432	Tcp	Open	postgresql
+5900	Tcp	Open	vnc
+6000	Tcp	Open	X11
+6667	Tcp	Open	irc
+8009	Tcp	Open	ajp13
+8180	Tcp	Open	http
+
+3. What step in the hacking attack process uses Zenmap
+We use Zenmap in the reconnaissance stage of hacking attack process because it returns the information about possible OS of target, t
+he currently running services and open ports. Based on this information, we can do next step to further explore the potential weakness of our system.
+
+4. What step in the hacking attack process identifies know vulnerabilities?
+Basically, we identify the vulnerabilities in the step of scan target and after finishing the scanning, 
+we will do analysis of these vulnerabilities, which represents that we are in vulnerability analysis step.
+
+5. During the vulnerability scan, you identified a vulnerable service in the Linux victim system. What was the name of the vulnerable service?
+
+
+6. If you are a member of a security penetration testing team, and you identify vulnerabilities and exploits, should you obtain written permission
+   from the owners prior to compromising and exploiting the known vulnerability
+   
+ Of course as an ethical hacker, before we do anything to our client, we should ask written permission first. 
+ Without this permission ethical hacker becomes an attacker which might be arrested by government agency because the unauthorized hacking is illegal.  

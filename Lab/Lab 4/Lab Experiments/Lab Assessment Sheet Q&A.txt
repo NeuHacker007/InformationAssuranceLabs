@@ -1,0 +1,17 @@
+Questions
+
+1. Define why change control management is relevant to security operations in a organization.
+
+2. Name six policies you could enable in a Windows Domain
+    Name Resolution policy, Password policy, ability to delete all user remote access connections,
+	prohibit access to the new connection wizard, ability to rename all user remote access connections, ability to rename LAN connections. 
+3. What is the minimum password length enforced by the Password must meet complexity requirements policy.
+	six characters 
+4. What sources could you use as a source to perform the MBSA security scan
+	we can scan a computer or multiple computers by scanning a IP range. 
+5. What are some of the options that you can exercise when initiating the MBSA scan
+   - Check for Windows administrative vulnerabilities
+   - Check for weak passwords
+   - Check for IIS administrative vulnerabilities
+   - Check for SQL administrative vulnerabilities 
+   - Check for security updates

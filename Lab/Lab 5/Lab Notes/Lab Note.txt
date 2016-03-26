@@ -1,0 +1,2 @@
+Wireshark results
+			- the source and destination ip address are not original. they are relative to where a packet was captured.

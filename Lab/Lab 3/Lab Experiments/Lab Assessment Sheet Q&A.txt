@@ -1,0 +1,33 @@
+Questions
+
+1. What are the three fundamental elements of an effective security program for information systems
+	the three fundamental elements are identity, authentication and authorization. 
+	
+2. Of these three fundamental controls, which two are used by the Domain User admin to create users and assign rights to resources
+	the two controls used by the domain user admin are authentication and authorization. 
+	role based access control and non-discretionary access control.
+	
+3. If you can browse a file on a Windows network share, but are not able to copy it or modify it, what types of access controls and permissions are probly configured
+    This indicates that the file has been set to read-only. the access control type might be role based access control 
+	
+4. What is the mechanism on a Windows server that lets you administer granular policies and permissions on a Windows network using role based access
+   Microsoft use Active Directory Domain structure to granular policies and permissions. Active Directory has a central database for all domain security records
+   And, it has several layers of authentiation and authorization, including standard user/password and several forms of two factor authentication.
+   
+5. What is two-factor authentication, and why is it an effective access control technique
+   two factor authentication means that if a user meets the two of the three conditions - something that you know, something that you are and something you
+   possess at the same time, then we can trust the user. It is effective because the user must have met any two of the three conditions at the same time. If
+   a user has met any single condition, the user cannot be trusted.
+   
+6. Relate how Windows Server 2012 Active Directory and the configuration of access controls achieve C-I-A for departmental LANs, Departmental folders, and data
+	
+7. Is it a good practice to include the account or username in the password? Why or why not?
+	It's not good for us to include our account or username within our password. The reseason is that the more complex your password is and the more secure your account is.
+	However if we include the username or account in that password, it lower the complexity of user's password because in most cases, the username or account number are visible
+	to others. So, it's easier for hacker to gusses the password through brute-force method.
+	
+8. Can a user who is defined in Active Directory access a shared drive on a computer if the server with the shared drive is not part of the domain
+   if a server is not in the same domain with a user then the user could not access the shared drive of that server.
+   
+9. When granting access to LAN systems for guests(i.e., auditors, consultants, third-party individuals,etc.), what security controls do you recommend be implemented to
+   maximize confidentiality, integrity, and availability of production systems and data?
